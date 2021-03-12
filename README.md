@@ -1,0 +1,7 @@
+# Prisoner-Database
+(Group Project)
+Goal: Design a complete database structure that meets all of the requirements described below.
+Scenario:  The state of Alabama needs to have a criminal justice system to manage all of the prisoners who are or have been incarcerated in any of their state prisons. Requirements include:
+•	Ability to identify every prisoner who has been incarcerated in any of the state prisons, when admitted, when released, and the release status (from a list of predetermined values, e.g., sentence completed, paroled, pardoned, died, etc.). Each prisoner is given a unique justice system ID number that is unique to that person and does not change throughout their lifetime.
+•	Ability to identify every case in which the prisoner has been involved, the offenses committed in each case (from a list of predetermined values), the status of the case (from a list of predetermined values, e.g., in progress, adjudicated, in appeal, etc.), the legal firm representing the prisoner in each case, and the attorney within the firm who is handling this case. Each case is given a unique case ID number and may include a number of offenses. Offenses are grouped into a list of predetermined offense categories.
+•	Ability to track court hearings for each case to which each prisoner must attend, including which court, the court’s location, which case, the date and time of the hearing, and the legal representation.
